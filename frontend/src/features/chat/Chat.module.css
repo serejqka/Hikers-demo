@@ -1,0 +1,228 @@
+#conteiner {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mainPage {
+  width: 80%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 35px;
+  padding: 50px;
+}
+
+.mainPageChats {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-right: 50px;
+}
+
+.mainPageChatsChat {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.mainChats{
+  display: flex;
+  flex-direction: column;
+}
+
+.mainChatsButton{
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+}
+
+.mainChatsButtonTake {
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+.mainPageMessage {
+  width: 100%;
+}
+
+.mainPageChatsMes {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.messagePage {
+  border: 1px solid black;
+  padding: 10px;
+  min-height: auto;
+  max-height: 70%;
+  overflow-y: scroll;
+}
+
+.messageAllCardRight {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.messageAllCardRight {
+  margin-bottom: 20px;
+}
+
+.messageAllCardLeft {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.messageAllCardLeft {
+  margin-bottom: 20px;
+}
+
+.messageAllRight {
+  width: 250px;
+  display: flex;
+  background-color: rgb(216, 216, 216);
+  border-radius: 35px;
+  min-height: 70px;
+  max-height: auto;
+  padding: 10px;
+  justify-content: flex-end;
+}
+
+.messageAllLeft {
+  width: 250px;
+  display: flex;
+  background-color: rgb(216, 216, 216);
+  border-radius: 35px;
+  min-height: 70px;
+  max-height: auto;
+  padding: 10px;
+  justify-content: flex-start;
+}
+
+.avaProfRight, .avaProfLeft {
+  min-width: 25px;
+  max-width: 35px;
+  border-radius: 50%;
+}
+
+.divAvaProfRight, .divAvaProfLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.messageNameRight {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 14px;
+  font-size: 13px;
+  color: black;
+}
+
+.messageNameLeft{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 14px;
+  font-size: 14px;
+  color: black;
+}
+
+.messageDataRight {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 14px;
+  font-size: 11px;
+  color: black;
+}
+
+.messageDataLeft {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 14px;
+  font-size: 11px;
+  color: black;
+}
+
+.messageTextRight {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 14px;
+  font-size: 15px;
+}
+
+.messageTextLeft {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 14px;
+  font-size: 15px;
+}
+
+/* .messageRight{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.messageLeft {
+  display: flex;
+  justify-content: flex-start;
+} */
+
+.mainWriteChat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.inputForm {
+  border: 1px solid black;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.buttonForm{
+  padding: 10px;
+  border: none;
+  color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.buttonForm:hover {
+  transition: 0.5s;
+  border: 1px solid black;
+  color: black;
+  border-radius: 20px;
+  background-color: rgb(241, 241, 241);
+}
+
+.messagePage{
+  overflow: auto;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+}

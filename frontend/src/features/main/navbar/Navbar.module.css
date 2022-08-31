@@ -1,0 +1,135 @@
+#navbar {
+  width: 100%;
+  max-height: 60px;
+  min-height: 60px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  font-size: 15px;
+  /* font-weight: 450; */
+  border-bottom: 1px solid #0d071c;
+}
+
+#navbar .left {
+  display: flex;
+  justify-content: flex-start;
+  width: 20%;
+  margin-left: 10px;
+}
+
+#navbar .right {
+  display: flex;
+  width: 20%;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#navbar .button {
+  transition: 0.5s;
+  padding: 3px 15px 3px 15px;
+  border: 1px solid #0d071c;
+  border-radius: 25px;
+  display: flex;
+  background-color: #0d071c;
+  color: white;
+  /* font-weight: 400; */
+}
+
+#navbar .button:not(:last-child) {
+  display: flex;
+  margin-right: 10px;
+}
+
+#navbar .button:hover {
+  padding: 3px 15px 3px 15px;
+  border: 1px solid #0d071c;
+  border-radius: 25px;
+  background-color: white;
+  color: #0d071c;
+}
+
+#navbar .marqueeAll{
+  width: 30%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.userName {
+  cursor: pointer;
+  margin-right: 20px;
+  justify-content: center;
+}
+
+.navbarCategory {
+  display: flex;
+
+}
+
+.navbarCategoryClass {
+  border-bottom: 1px solid black;
+  opacity: 0.5;
+}
+
+.navbarCategoryClass:not(:last-child) {
+  display: flex;
+  margin-right: 20px;
+}
+
+.navbarCategoryClass:hover {
+  transition: 0.5s;
+  opacity: 1;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.marquee{
+  display: flex;
+  align-items: center;
+  line-height: 1.3;
+  font-family: sans-serif;
+  color: #0d071c;
+  white-space: nowrap;
+  animation: marquee 20s infinite linear;
+  margin: 0;
+}
+
+.marquee:after{
+  content: " - СНОУБОРД - РАФТИНГ - КЕМПИНГ - ДАУНХИЛЛ - АЛЬПИНИЗМ - ХАЙКИНГ - СНОУБОРД - РАФТИНГ - КЕМПИНГ - ДАУНХИЛЛ - АЛЬПИНИЗМ - ХАЙКИНГ - СНОУБОРД - РАФТИНГ - КЕМПИНГ - ДАУНХИЛЛ - АЛЬПИНИЗМ - ХАЙКИНГ - ";
+  padding-bottom: 0;
+}
+
+@keyframes marquee{
+  0% {
+      transform: translateX(0)
+  }
+  100% {
+      transform: translateX(-50%)
+  }
+}
+
+.iconCategory {
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  opacity: 0.3;
+  margin-left: 13px;
+}
+
+.iconCategory:hover{
+  transition: 0.5s;
+  width: 70px;
+  height: 70px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.iconCategoryTake {
+  width: 70px;
+  height: 70px;
+  opacity: 1;
+  cursor: pointer;
+}

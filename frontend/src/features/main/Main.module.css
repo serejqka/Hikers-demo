@@ -1,0 +1,193 @@
+.mainTitle {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 34px;
+}
+
+#main {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: auto;
+  height: 700px;
+  display: flex;
+  overflow: hidden;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.photo {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  object-fit: cover;
+  position: relative;
+  animation-duration: 1s;
+  cursor: pointer;
+}
+
+.mainRight {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  border-left: 0px solid;
+}
+
+/* #main .buttonCategory {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+} */
+
+.categoryDistraction {
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.categoryDistractionTitle {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.categoryDistractionTitleDis {
+  margin-bottom: 45px;
+}
+
+.categoryDistractionButton {
+  transition: 0.5s;
+  padding: 3px 15px 3px 15px;
+  border: 1px solid ;
+  border-radius: 25px;
+  background-color: #0d071c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
+  height: 45px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.categoryDistractionButton:hover {
+  padding: 3px 15px 3px 15px;
+  border: 1px solid #0d071c;
+  border-radius: 25px;
+  background-color: white;
+  color: #0d071c;
+}
+
+.categoryChange {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+  width: 10%;
+  margin-left: 20px;
+}
+
+.iconMainUpDown {
+  width: 30px;
+  cursor: pointer;
+}
+
+.buttonNext {
+  transition: 0.5s;
+  padding: 3px 15px 3px 15px;
+  border: 1px solid #0d071c;
+  border-radius: 100px;
+  background-color: white;
+  color: #0d071c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  opacity: 0.3;
+}
+
+.buttonBack {
+  transition: 0.5s;
+  padding: 3px 15px 3px 15px;
+  border: 1px solid #0d071c;
+  border-radius: 100px;
+  background-color: white;
+  color: #0d071c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  opacity: 0.3;
+}
+
+.buttonBack:hover, .buttonNext:hover {
+  opacity: 1;
+  width: 60px;
+}
+
+.photoUpAnimation {
+  position: relative;
+  animation-name: example1;
+  animation-duration: 1s;
+}
+
+.photoUpMainA {
+  position: relative;
+  animation-name: mainPos1;
+  animation-duration: 1s;
+}
+
+.photoDownAnimation {
+  position: relative;
+  animation-name: example2;
+  animation-duration: 1s;
+}
+
+.photoDownMainA {
+  position: relative;
+  animation-name: mainPos2;
+  animation-duration: 1s;
+}
+
+@keyframes example1 {
+  from {top: -600px;}
+  to {top: 0px;}
+}
+
+@keyframes mainPos1 {
+  from {top: -600px;}
+  to {top: 0px;}
+}
+
+@keyframes example2 {
+  from {bottom: 700px;}
+  to {bottom: 1400px;}
+}
+
+@keyframes mainPos2 {
+  from {bottom: -700px;}
+  to {bottom: 0px;}
+}
+
+.categoryMain {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,42 @@
+.profile-page {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-info {
+  /* padding-left: 100px; */
+
+}
+
+.profile-string {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-photo {
+  display: flex;
+  flex-direction: column ;
+
+}
+
+#profile-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-block-btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px;
+  padding: 20px;
+  border-radius: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 50px;
+}

@@ -1,0 +1,41 @@
+.friend {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+.friends-title{
+  margin-left: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+
+}
+
+.friends-btn {
+  margin-left: 20px;
+}
+
+.btn-group {
+   display: flex
+}
+
+#ava-img {
+  width: 300px;
+  height: 300px;
+  border: solid 1px rgb(170, 166, 166);
+  padding: 20px;
+  border-radius: 50%; 
+}
+
+.friends-info {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.info-btn {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}

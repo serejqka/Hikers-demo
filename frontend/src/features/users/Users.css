@@ -1,0 +1,53 @@
+.body {
+}
+
+.ava-img {
+  width: 300px;
+  height: 300px;
+  border: solid 1px rgb(170, 166, 166);
+  padding: 20px;
+  border-radius: 50%; 
+}
+
+.all-users {
+  /* background-color: rgb(114, 159, 141); */
+  display: flex;
+  justify-content: space-evenly;
+  width: auto;
+  flex-wrap: wrap;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 50px;
+  /* justify-content: center; */
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.users-title {
+  margin-left: 100px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+}
+
+.icons {
+  width: 30px;
+  margin: 10px;
+}
+
+.text-inf {
+  margin: 20px;
+}
+
+.str-inf {
+  margin: 10px;
+}

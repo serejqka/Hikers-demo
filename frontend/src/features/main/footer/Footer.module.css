@@ -1,0 +1,106 @@
+#footerMain {
+  width: 100%;
+  height: 450px;
+  background-color: black;
+  color: white;
+  /* position: relative;
+  left: 0;
+  bottom: 0; */
+}
+
+.mainMarqAll {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.mainMarqAll .mainMarques {
+  display: flex;
+  width: 200%;
+  height: 100%;
+  animation: div 40s linear infinite;
+}
+
+.mainMarqAll .mainMarq {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden
+}
+
+.mainMarqAll .one {
+  width: 13%;
+  height: 80%;
+  overflow: hidden;
+  border-radius: 35px;
+}
+
+.mainMarqAll .mainMarques:hover{
+  animation-play-state: paused;
+}
+
+.oneImg {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(202, 202, 202);
+  overflow: hidden;
+  opacity: 0.5;
+}
+
+.oneP {
+  position: relative;
+  height: 100%;
+  bottom: 360px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(202, 202, 202);
+  cursor: pointer;
+}
+/* 
+.mainMarqAll .oneP:hover  {
+  color: white;
+  transition: 1s;
+  font-size: 40px;
+  opacity: 1;
+} */
+
+.one:hover .oneImg {
+  transition: 1.5s;
+  opacity: 0.8;
+}
+
+.one:hover .oneP {
+  color: white;
+  transition: 1.5s;
+  font-size: 34px;
+}
+
+
+@keyframes div {
+  0%{
+    transform: translateX(100%);
+  }
+  
+  100%{
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes div {
+  0%{
+    transform: translateX(0%);
+  }
+  
+  100%{
+    transform: translateX(-50%);
+  }
+}
+

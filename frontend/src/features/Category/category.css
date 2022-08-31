@@ -1,0 +1,156 @@
+.bad {
+  position: relative;
+  min-height: 0vh;
+  max-height: 0%;
+  margin-bottom: 0px;
+  opacity: 0;
+}
+
+.categoriesBox {
+  opacity: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: absolute;
+}
+
+.categoriesBox > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.placeTitleBox {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: 2;
+  background-color: white;
+  padding: 20px;
+  border-radius: 0px 0px 10px 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: -40px;
+}
+
+.placesListTitle {
+  font-size: 1.0rem;
+  width: 300px;
+  overflow:hidden;
+}
+
+.placesPlusListTitle{
+  font-size: 1.8rem;
+}
+
+#placeFilter  {
+  position: absolute;
+  min-height: 700px !important;
+  right: 0;
+  width: 320px;
+  background-color: white;
+  margin-top: -40px;
+}
+
+#placesContainer{
+  max-height: 700px;
+  width: 100%;
+  overflow-y: scroll;
+
+}
+
+.ratingNum {
+  font-size: 22px;
+}
+
+#yandexImage {
+  width: 200px;
+  border: 1px solid #0d071c;
+  border-radius: 5px;
+}
+
+.yandexTitle {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.yandexButton {
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  background-color: #ffffff;
+  margin: 30px;
+}
+
+.yandexButton > a {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border: 10px solid #ffffff;
+  border-radius: 25px;
+  font-size: 15px;
+
+}
+
+.yandexButton > a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border: 10px solid #000000;
+  border-radius: 25px;
+  background-color: #000000;
+}
+
+#yandexPlaceTitle {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+.yandexStar {
+  color: #ffc107;
+  width: 40px;
+  height: 50px;
+  font-size: 35px;
+  margin-top: 40px;
+}
+
+#cardPlace  {
+  position: relative;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  }
+
+.bottomBlock {
+  position: absolute;
+  z-index: 1;
+ background-color:white;
+ opacity: 0.6;
+}
+
+.bottomBlock:hover #cardPlace {
+  background-color:white;
+}
+
+#cardPlace:hover {
+  border: 1px solid #0d071c;
+  transition: 0.5s;
+  background-color: rgb(241, 241, 241);
+  cursor: pointer;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 200px;
+  justify-content: center;
+}
+
+.imgTop {
+  border-radius: 10px;
+}
+
+
+
+
+
+
